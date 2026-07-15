@@ -1,4 +1,5 @@
 fastapi
+serverless-wsgi
 uvicorn
 requests
 google-genai

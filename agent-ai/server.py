@@ -96,3 +96,7 @@ if __name__=="__main__":
         host="0.0.0.0",
         port=port
     )
+
+import serverless_wsgi
+def handler(event, context):
+    return serverless_wsgi.handle_request(app, event, context)
