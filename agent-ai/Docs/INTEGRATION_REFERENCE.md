@@ -47,7 +47,7 @@ NEXT_PUBLIC_FIREBASE_APP_ID=1:<number>:web:<hex>
 ### Auth (add when confirmed with team)
 ```
 # NextAuth — if using NextAuth:
-NEXTAUTH_URL=https://sportsfan-frontend.vercel.app
+NEXTAUTH_URL=https://sportsfan360.com
 NEXTAUTH_SECRET=<generate with: openssl rand -base64 32>
 ```
 

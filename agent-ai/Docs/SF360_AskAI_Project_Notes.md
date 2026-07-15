@@ -17,7 +17,7 @@ The assistant is built around a tool-calling pattern: a language model interpret
 | Frontend (Vercel) | https://ask-ai-two-murex.vercel.app/ | React app — user-facing chat UI |
 | Backend (Render) | https://askai-1flm.onrender.com | FastAPI Python backend |
 | GitHub Repo | https://github.com/SD-SF360/AskAI | Source of truth for both |
-| Parent App | https://sportsfan-frontend.vercel.app/MainModules/AskAI | AskAI embedded as iframe in the main app |
+| Parent App | https://sportsfan360.com/MainModules/AskAI | AskAI embedded as iframe in the main app |
 
 **Notes:**
 - Render runs on a free tier — `cron-job.org` pings `/health` every 10 minutes to prevent the instance from sleeping

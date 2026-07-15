@@ -36,7 +36,7 @@ origins = [
     "https://sportsfan360.com",
     "https://www.sportsfan360.com",
     "https://ask-ai-two-murex.vercel.app",
-    "https://sportsfan-frontend.vercel.app",
+    "https://sportsfan360.com",
     "http://localhost:3000",
     "http://127.0.0.1:3000",
     "http://localhost:5173",
