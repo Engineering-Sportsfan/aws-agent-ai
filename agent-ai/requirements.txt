@@ -9,7 +9,7 @@ flask-cors
 requests
 feedparser
 python-dotenv
-pandas 
+pandas>=2.0.0
 openpyxl
-pyarrow
+pyarrow>=14.0.0
 slowapi
