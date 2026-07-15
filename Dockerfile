@@ -1,7 +1,7 @@
 FROM public.ecr.aws/lambda/python:3.11
 
 COPY agent-ai/requirements.txt ${LAMBDA_TASK_ROOT}
-RUN dnf install -y gcc rust cargo && pip install --upgrade pip && pip install -r requirements.txt
+RUN yum install -y gcc rust cargo && pip install --upgrade pip && pip install --prefer-binary -r requirements.txt
 
 COPY agent-ai/ ${LAMBDA_TASK_ROOT}/agent-ai/
 
