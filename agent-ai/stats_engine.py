@@ -84,3 +84,16 @@ def highest_score():
     "chart_data":[],
     "answer":f"Highest IPL score is {r} by {p} in {m}."
     }
+
+def answer_question(q):
+    q = str(q).lower()
+    if "wicket" in q or "bowler" in q:
+        return top_wickets()
+    elif "six" in q:
+        return top_sixes()
+    elif "title" in q or "team" in q or "won" in q:
+        return team_titles()
+    elif "highest" in q or "score" in q:
+        return highest_score()
+    else:
+        return top_runs()
