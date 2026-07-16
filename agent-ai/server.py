@@ -3,9 +3,11 @@ from flask_cors import CORS
 import random
 import os
 
-from feed_engine import generate_feed
+from feed_engine import get_feed
 from stats_engine import answer_question
 
+
+from daily_challenge import daily_challenge
 
 app=Flask(__name__)
 
@@ -25,7 +27,7 @@ def home():
 def feed():
 
     try:
-        data=generate_feed()
+        data=get_feed()
         return jsonify(data)
 
     except Exception as e:
