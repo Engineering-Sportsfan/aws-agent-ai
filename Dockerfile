@@ -11,4 +11,4 @@ RUN yum install -y gcc rust cargo && \
 COPY agent-ai/ ${LAMBDA_TASK_ROOT}
 
 # The files are now directly in the root
-CMD [ "server.handler" ]
+CMD [ "agent.handler" ]

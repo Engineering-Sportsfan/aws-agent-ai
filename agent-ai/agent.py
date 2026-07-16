@@ -937,3 +937,6 @@ def daily_challenge(matchId: str = "default"):
             {"id": "powerplay",   "question": "🎯 Powerplay Score?", "options": ["<40","40-60","60-80","80+"]},
         ],
     }
+
+from mangum import Mangum
+handler = Mangum(app)
